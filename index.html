@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyRecipe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js "></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <!-- <img id="backimg" src="images/background.jpg" alt=""> -->
+
+    <!-- <img id="backimg" src="images/background.jpg" alt=""> -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand ps-2 text-white" style="font-weight: bold;" href="#">Grand Siera</a>
+          <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ps-2" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto justify-content-between">
+              <li class="nav-item">
+                <a class="nav-link active" style="color: white;" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#prewed">Wedding</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#predin">Dining</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#prepart">Party</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#book">Booking</a></li>
+                  <li><a class="dropdown-item" href="#enroute">Route</a></li>
+                  <li><a id="cnt" class="dropdown-item" href="#contact">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- <form class="d-flex px-2">
+              <input class="form-control me-2" id="inputtxt" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit" id="searchbtn">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+    <div class="container mt-5">
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="images/entrance.jpg" class="d-block w-100" alt="entrance">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/rightimg.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/hotelpool.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/foodmenu.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/leftimg.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="mt-2 pt-2 text-center"><marquee width="50%" direction="left">Exciting offers for upcoming Summer!</marquee> </h1>
+    
+    <hr id="prewed" class="featurette-divider mx-2">
+    
+    <div class="container-fluid text-center">
+      
+      <section id="wedding">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading text-center">Wedding Packages. <br> <span class="text-muted">The best place to party your marriage.</span></h2>
+            <p class="lead">Let us take care of your special day in our fully licensed wedding venues. </p>
+          </div>
+          <div class="col-md-5">
+            <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+            <img src="images/wedding.jpg" class="img-fluid mx-auto" height="350px" width="350px" alt="wedding">
+          </div>
+        </div>
+      </section>
+
+      <hr id="predin" class="featurette-divider mx-2">
+
+      <section id="dining">
+        <div class="row featurette align-content-center mt-4">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">World class Dining. <br><span class="text-muted">Experience the best food around the World.</span></h2>
+            <p class="lead">Choose from 2 restaurants. Each with it's own theme, whichever you choose you wil not be disappointed by our delicious food cooked by the best cook's. </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="images/dining.jpg" class="img-fluid mx-auto" height="400px" width="400px" alt="dining">
+          </div>
+        </div>
+      </section>
+
+      <hr id="prepart" class="featurette-divider mx-2">  
+
+      <section id="party">
+        <div class="row featurette mt-3">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Late Night Party. <br><span class="text-muted">Best place to spend the weekend .</span></h2>
+            <p class="lead">If you are an adult, then this is the best place to spend your night at the hotel. Have some drinks and dance to the music.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/party.jpg" class="img-fluid mx-auto" height="350px" width="350px" alt="party">
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <br>
+    <hr id="book" class=" bookinghr">
+    <hr class="bookinghr">
+    <hr class="featurette-divider mx-2">
+
+
+    <form action="/Booking" method="post">
+
+      <section id="booking">
+        <h1 class="pt-2 text-center"><marquee direction="left" width="50%">Book your favourite!</marquee></h1>
+        <div class="container-fluid cf">
+          <div class="card-group">
+
+            <div class="card cardimg">
+              <img class="card-img-top" src="images/bed.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title"><strong><em>Luxury</em></strong></h5>
+                <p class="card-text">A well furnished first-class room with a well constructed swimming pool on each floor with all kind of safety included and a best balcony view.<br><strong>Price : </strong>Rs.20000/day</p>
+                <button name="luxury" class="btn btn-primary">Book Now!</button>
+              </div>
+            </div>
+
+            <div class="card cardimg">
+              <img class="card-img-top" src="images/gold.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title"><strong><em>Premium</em></strong></h5>
+                <p class="card-text">A well furnished first-class room with all kind of safety included and a best balcony view. <br><br><strong>Price : </strong>Rs.15000/day </p>
+                <button name="premium" class="btn btn-primary">Book Now!</button>
+              </div>
+            </div>
+
+            <div class="card cardimg">
+              <img class="card-img-top" src="images/regular.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title"><strong><em>Regular</em></strong></h5>
+                <p class="card-text">The regular room will be semi-furnished and have access to all the facilities in the hotel but the food accomodation is yours.<br><br><strong>Price : </strong>Rs.4000/day</p>
+                <button name="regular" class="btn btn-primary">Book Now!</button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+    </section>
+  </form>
+  
+  <hr id="enroute" class=" bookinghr">
+  <hr class="bookinghr">
+  <hr class="featurette-divider mx-2">
+
+
+  <section id="route">
+    <h1 class="pt-2 text-center"><marquee direction="left" width="50%">Enroute to your favourite hotel!</marquee></h1>
+    <div class="container-fluid text-center">
+      <img src="images/hotelroute.jpg" class="map" alt="routemap">
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <div class="container-fluid footersec ">
+      <h1>Grand Siera</h1>
+      <p>No.5 , Bcci Road , Icc , India . (Opp. to India Cements Ltd.) <br><br><i class="fa fa-phone" style="color: black;"><a href="tel:+919898989898" style="color:white ; text-decoration: none;">  9898989898</a></i></p>
+      <i class="fa fa-envelope" > <a href="mailto:siera.grand@gmail.com" style="color:black; text-decoration: none;">siera.grand@gmail.com </a></i>
+      <hr class="mx-2 border-white border-3 btm">
+
+      <div class="links">
+        <div class="social-icon">
+          <a href="https://twitter.com/"><span class="fa fa-twitter"></span></a>
+        </div>
+        <div class="social-icon">
+          <a href="https://www.instagram.com/"><span class="fa fa-instagram"></span></a>
+        </div>
+        <div class="social-icon">
+          <a href="https://www.facebook.com/"><span class="fa fa-facebook"></span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+  
+</body>
+</html>
